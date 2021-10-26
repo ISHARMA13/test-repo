@@ -1,0 +1,58 @@
+#container {
+    height: 420px;
+    width: 420px;
+    margin: 0;
+    display: flex;
+    background-color: black;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+}
+
+#ball-1 {
+    border-radius: 100%;
+    background-color: pink;
+    height: 20px;
+    width: 20px;
+    order: 0;
+}
+
+#ball-2 {
+    border-radius: 100%;
+    background-color: purple;
+    height: 40px;
+    width: 40px;
+    order: -5;
+}
+
+#ball-3 {
+    border-radius: 100%;
+    background-color: skyblue;
+    height: 60px;
+    width: 60px;
+    order: -2;
+}
+
+#ball-4 {
+    border-radius: 100%;
+    background-color: lightgreen;
+    height: 80px;
+    width: 80px;
+    order: -4;
+}
+
+#ball-5 {
+    border-radius: 100%;
+    background-color: yellow;
+    height: 100px;
+    width: 100px;
+    order: -1;
+}
+
+#ball-6 {
+    border-radius: 100%;
+    background-color: wheat;
+    height: 120px;
+    width: 120px;
+    order: -3;
+}
+
